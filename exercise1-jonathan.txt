@@ -1,0 +1,5 @@
+#!/bin/bash
+
+$ ls -ld | sort | uniq | wc -l
+
+ls is the list command.ld is used to retrieve a list and d specifies that the list is focused on the named directory. Pipe function to sort and uniq to filter out duplicates. wc is used to count the different permission types on the directory. 
